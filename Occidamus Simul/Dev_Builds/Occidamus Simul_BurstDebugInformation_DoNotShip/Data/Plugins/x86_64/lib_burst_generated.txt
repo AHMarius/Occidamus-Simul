@@ -142,6 +142,7 @@ Library: lib_burst_generated
 --debug=Full
 --output=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.Stores.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Analytics.dll
@@ -153,6 +154,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Monetization.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.AppleCore.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Demos.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
@@ -161,8 +163,11 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonRealtime.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Utilities.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.SecurityStub.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
@@ -174,6 +179,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.SecurityCore.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonChat.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.WinRTStub.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
@@ -185,12 +191,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.Codeless.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.AppleStub.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Demos.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Utilities.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonChat.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonRealtime.dll
 --assembly-folder=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
@@ -340,6 +340,7 @@ Library: lib_burst_generated
 --debug=Full
 --output=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.Stores.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Analytics.dll
@@ -351,6 +352,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Monetization.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.AppleCore.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Demos.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.Internal.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Burst.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
@@ -359,8 +361,11 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonRealtime.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Environments.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Internal.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Utilities.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Analytics.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.SecurityStub.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
@@ -372,6 +377,7 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.SecurityCore.dll
+--root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonChat.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.WinRTStub.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Threading.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
@@ -383,12 +389,6 @@ Library: lib_burst_generated
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.Codeless.dll
 --root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\UnityEngine.Purchasing.AppleStub.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Demos.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.Utilities.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonChat.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonUnityNetworking.dll
---root-assembly=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\PhotonRealtime.dll
 --assembly-folder=C:\Users\1\OneDrive\Documents\GitHub\Occidamus-Simul\Occidamus Simul\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
