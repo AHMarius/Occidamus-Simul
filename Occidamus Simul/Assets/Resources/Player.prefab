@@ -64,6 +64,7 @@ GameObject:
   - component: {fileID: 5481200128205491573}
   - component: {fileID: 7967487713353218666}
   - component: {fileID: 7696965374093598390}
+  - component: {fileID: 7579289726591334975}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -107,7 +108,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1aa4146e6d1a9324080a353e1fbf555e, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -128,7 +129,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 38746821, guid: 90c34a798cf5e084ea37c58581242428, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -193,6 +194,7 @@ MonoBehaviour:
   observableSearch: 2
   ObservedComponents:
   - {fileID: 7967487713353218666}
+  - {fileID: 7797135585014875965}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -224,6 +226,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 228f314a2caab844dafd65562ef7b9f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &7579289726591334975
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286604213075443139}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 26cd0d3b4a27e6d41864b6425f3c9f0d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &5416996647538202377
 GameObject:
   m_ObjectHideFlags: 0
