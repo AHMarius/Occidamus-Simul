@@ -12,6 +12,8 @@ public class PlayerDataScript : MonoBehaviour
     [Header("Player:")]
     public float playerHealth;
 
+    public float playerArmor;
+
     public float playerMovementSpeed;
 
     public float playerAttackSpeed;

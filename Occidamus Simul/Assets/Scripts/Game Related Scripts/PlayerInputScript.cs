@@ -1,20 +1,21 @@
 using UnityEngine;
 using Photon.Pun;
-using UnityEngine.UIElements;
 
 public class PlayerInputScript : MonoBehaviour
 {
-    [SerializeField]
-    private Transform attackPoint;
-    public float movementSpeed = 5f;
+    public Transform attackPoint;
+    private float _movementSpeed;
     private Rigidbody2D _rbPlayer;
     private Vector2 _movementInput;
     private PhotonView _viewPhoton;
+    private PlayerDataScript _playerData;
 
     private void Start()
     {
+        _playerData = GetComponent<PlayerDataScript>();
         _rbPlayer = this.GetComponent<Rigidbody2D>();
         _viewPhoton = GetComponent<PhotonView>();
+        _movementSpeed = _playerData.playerMovementSpeed;
     }
 
     private void Update()
@@ -26,7 +27,7 @@ public class PlayerInputScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 GetComponent<PlayerCombatScript>()
-                    .Attack(attackPoint, GetComponent<PlayerDataScript>().playerAttackRange);
+                    .Attack(attackPoint, _playerData.playerAttackRange, _playerData.playerDamage);
             }
         }
     }
@@ -34,7 +35,7 @@ public class PlayerInputScript : MonoBehaviour
     private void FixedUpdate()
     {
         _rbPlayer.MovePosition(
-            _rbPlayer.position + _movementInput.normalized * (movementSpeed * Time.fixedDeltaTime)
+            _rbPlayer.position + _movementInput.normalized * (_movementSpeed * Time.fixedDeltaTime)
         );
     }
 }
