@@ -1,8 +1,11 @@
 using UnityEngine;
 using Photon.Pun;
+using UnityEngine.UIElements;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerInputScript : MonoBehaviour
 {
+    [SerializeField]
+    private Transform attackPoint;
     public float movementSpeed = 5f;
     private Rigidbody2D _rbPlayer;
     private Vector2 _movementInput;
@@ -20,6 +23,11 @@ public class PlayerMovement : MonoBehaviour
         {
             _movementInput.x = Input.GetAxisRaw("Horizontal");
             _movementInput.y = Input.GetAxisRaw("Vertical");
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                GetComponent<PlayerCombatScript>()
+                    .Attack(attackPoint, GetComponent<PlayerDataScript>().playerAttackRange);
+            }
         }
     }
 

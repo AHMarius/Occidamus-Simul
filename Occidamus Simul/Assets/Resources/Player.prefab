@@ -65,6 +65,8 @@ GameObject:
   - component: {fileID: 7967487713353218666}
   - component: {fileID: 7696965374093598390}
   - component: {fileID: 7579289726591334975}
+  - component: {fileID: 150598058519616444}
+  - component: {fileID: -3765425648440371118}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -173,6 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58f2ad8f26ec03341b1f1ce5d4bf19ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackPoint: {fileID: 8774235458712999947}
   movementSpeed: 5
 --- !u!114 &5481200128205491573
 MonoBehaviour:
@@ -246,6 +249,42 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &150598058519616444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286604213075443139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 333363207b4730349afc182f3ce98e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerName: Marius Maximus Anti-Intelectus
+  playerClass: The Big G
+  playerHealth: 0.69
+  playerMovementSpeed: 69
+  playerAttackSpeed: 69
+  playerDamage: 69
+  playerLevel: 69
+  playerScore: 69
+  monstersKilled: -7
+  damageDealt: 5
+  totalScore: 89
+  timePlayed: -69696969
+--- !u!114 &-3765425648440371118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286604213075443139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd9b1dba2650da24992ff354a6c22e25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5416996647538202377
 GameObject:
   m_ObjectHideFlags: 0
