@@ -274,6 +274,7 @@ MonoBehaviour:
   damageDealt: 0
   totalScore: 0
   timePlayed: 0
+  character: {fileID: 11400000, guid: ca5d4515fd95313468d4b0fb2ef7dbc5, type: 2}
 --- !u!114 &-3765425648440371118
 MonoBehaviour:
   m_ObjectHideFlags: 0
