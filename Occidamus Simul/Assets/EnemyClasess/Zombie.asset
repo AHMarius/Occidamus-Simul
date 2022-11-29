@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d6ed36d4fafb948bf978cd2626c1b1, type: 3}
+  m_Name: Zombie
+  m_EditorClassIdentifier: 
+  enemySprite: {fileID: 902114260, guid: fb1ab86d06b53d4498dd71d39df513e0, type: 3}
+  enemyName: Robby
+  enemyClass: Zombie
+  enemyHealth: 40
+  enemyArmor: 20
+  enemyMovementSpeed: 10
+  enemyDamage: 5
+  enemyAttackSpeed: 19
+  enemyAttackRange: 15

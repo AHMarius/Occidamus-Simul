@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2266a649-db9d-4c33-a866-363e74929300" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/PlayerCharacter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/PlayerCharacter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayerClasses.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayerClasses/Archer.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayerClasses/Archer.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayerClasses/Rogue.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayerClasses/Rogue.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/EnemyCharacter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptableObjects/EnemyCharacter.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Occidamus Simul/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Occidamus Simul/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game Related Scripts/PlayerDataScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game Related Scripts/PlayerDataScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Unity Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/Archer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/Archer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/Rogue.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/Rogue.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy Base.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Base.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game Related Scripts/EnemyBaseScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game Related Scripts/EnemyBaseScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game Related Scripts/EnemyDataScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game Related Scripts/EnemyDataScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game Related Scripts/PlayerCombatScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game Related Scripts/PlayerCombatScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +116,8 @@
       <workItem from="1668187689910" duration="26000" />
       <workItem from="1668187851071" duration="1229000" />
       <workItem from="1668793672223" duration="1202000" />
+      <workItem from="1668863881701" duration="3524000" />
+      <workItem from="1669745738089" duration="1127000" />
     </task>
     <servers />
   </component>

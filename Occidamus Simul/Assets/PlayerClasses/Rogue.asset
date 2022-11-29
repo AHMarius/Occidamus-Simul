@@ -12,3 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa41455113fbc804793e2cb66bcb97cd, type: 3}
   m_Name: Rogue
   m_EditorClassIdentifier: 
+  characterSprite: {fileID: 0}
+  characterName: Rob
+  characterClass: Rogue
+  characterHealth: 100
+  characterArmor: 33
+  characterMovementSpeed: 33
+  characterDamage: 33
+  characterAttackSpeed: 33
+  characterAttackRange: 6

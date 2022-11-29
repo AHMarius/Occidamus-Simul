@@ -7,25 +7,29 @@ public class PlayerCombatScript : MonoBehaviour
     private PlayerDataScript _playerData;
     private Collider2D[] _hitEnemies;
 
-    public void Attack(Transform attackPoint, float attackRange, float playerDamage)
+    private void Start()
+    {
+        _playerData = this.GetComponent<PlayerDataScript>();
+    }
+
+    public void Attack(Transform attackPoint, float attackRange, int playerDamage)
     {
         //To do:
         //Play animation
-        try
+        // try
+        // {
+        _hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+        foreach (var enemy in _hitEnemies)
         {
-            _hitEnemies = Physics2D.OverlapCircleAll(
-                attackPoint.position,
-                attackRange,
-                enemyLayers
-            );
-            foreach (var enemy in _hitEnemies)
-            {
-                enemy.GetComponent<EnemyBaseScript>().TakeDamage(playerDamage, _playerData);
-            }
+            if (enemy.TryGetComponent(out EnemyBaseScript ebs))
+                ebs.TakeDamage(playerDamage, _playerData);
         }
-        catch (Exception e)
+        // }
+        /*catch (Exception e)
         {
             print("Error: " + e);
-        }
+            foreach (var enemy in _hitEnemies)
+                print(enemy + "" + enemy.GetComponent<EnemyDataScript>().enemyHealth);
+        }*/
     }
 }

@@ -9,14 +9,15 @@ public class EnemyBaseScript : MonoBehaviour
         _enemyData = GetComponent<EnemyDataScript>();
     }
 
-    public void TakeDamage(float damage, PlayerDataScript player)
+    public void TakeDamage(int damage, PlayerDataScript player)
     {
         //Animations
-        _enemyData.enemyHealth -= damage;
-        if (_enemyData.enemyHealth <= 0)
+        if (_enemyData.enemyHealth > 0)
+            _enemyData.enemyHealth -= damage;
+        else if (_enemyData.enemyHealth <= 0)
         {
-            Die();
             player.monstersKilled++;
+            Die();
         }
         print($"Enemy took {damage}");
     }
@@ -24,6 +25,7 @@ public class EnemyBaseScript : MonoBehaviour
     private void Die()
     {
         //Animations
+        print(this.name + "was killed");
         Destroy(this.gameObject);
     }
 }
